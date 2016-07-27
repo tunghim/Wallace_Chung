@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Wallace_Chung</string>
+    <string name="app_name">钟汉良</string>
     <string name="img">Image</string>
+    <string name="dedication">Dedicated to mum</string>
 </resources>

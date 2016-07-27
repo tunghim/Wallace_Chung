@@ -7,10 +7,29 @@
     <ImageView
         android:contentDescription="@string/img"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/img"
-        android:src="@drawable/pic"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/w_4_2"
         android:clickable="true"
-        android:layout_gravity="center" />
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size"
+        android:text="@string/dedication"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/imageView"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="@dimen/font_size_2" />
 
 </RelativeLayout>
